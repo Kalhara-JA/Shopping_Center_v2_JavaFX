@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane fx:id="mainFormContext" prefHeight="233.0" prefWidth="587.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MainFormController">
+   <children>
+      <Label layoutX="241.0" layoutY="14.0" text="ThogaKadeV2">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Separator layoutX="13.0" layoutY="38.0" prefHeight="25.0" prefWidth="574.0" />
+      <Button layoutX="73.0" layoutY="71.0" mnemonicParsing="false" onAction="#btnCustomerManagement" prefHeight="147.0" prefWidth="168.0" text="Customer Management" />
+      <Button layoutX="359.0" layoutY="71.0" mnemonicParsing="false" onAction="#btnItemManagement" prefHeight="147.0" prefWidth="168.0" text="Item Management" />
+   </children>
+</AnchorPane>
